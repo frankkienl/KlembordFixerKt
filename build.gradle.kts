@@ -24,7 +24,7 @@ tasks.withType<KotlinCompile>() {
     kotlinOptions.jvmTarget = "1.8"
 }
 
-//Thanks! https://gist.github.com/Renkai/58ec2272f3d614baa8fdb4e3778481a1 
+//Thanks! https://gist.github.com/Renkai/58ec2272f3d614baa8fdb4e3778481a1
 
 tasks {
     register("fatJar", Jar::class.java) {
